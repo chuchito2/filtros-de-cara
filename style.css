@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color:rgb(28, 196, 238);
+}
+
+canvas
+{
+    animation-name:foquito_de_navidad;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes foquito_de_navidad
+{
+    from {box-shadow:1px 1px 38px red;}
+    to {box-shadow:1px 1px 38px yellow;}
+}
